@@ -163,7 +163,6 @@ h2 {
 
 .search-form__pseudo-checkbox + .search-form__label-text::before {
   content: '';
-  position: absolute;
   top: 3.5px;
   left: 2px;
 }
