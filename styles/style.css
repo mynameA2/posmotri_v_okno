@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -151,10 +154,6 @@ h2 {
   gap: 16px;
 }
 
-/* .search-form__pseudo-checkbox + .search-form__label-text {
-  position: relative;
-} */
-
 .search-form__pseudo-checkbox {
   display: flex;
   width: 15px;
@@ -168,11 +167,6 @@ h2 {
   top: 3.5px;
   left: 2px;
 }
-
-/* .search-form__pseudo-checkbox:checked + .search-form__label-text::before {
-  background-color: #fff;
-  border-color: red;
-} */
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox {
   width: 15px;
@@ -297,14 +291,12 @@ h2 {
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .content__video-card-thumbnail {
   align-self: center;
   width: 194px;
   height: 103px;
-
 }
 
 .visually-hidden {
